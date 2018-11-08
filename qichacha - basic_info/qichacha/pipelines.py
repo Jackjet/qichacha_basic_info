@@ -15,7 +15,7 @@ class QichachaPipeline(object):
 
     def process_item(self, item, spider):
         #sql语句
-        sql = "INSERT INTO wen(name ,search_name,case_name,cause,release_time,case_num,case_status,executive_court,wsview) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (item['name'],item['search_name'],item['case_name'],item['cause'],item['release_time'],item['case_num'],item['case_status'],item['executive_court'],item['wsview'])
+        sql = "INSERT INTO wen(“此处为要插入mysql数据库的对应字段”) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (“此处为插入字段对应的值”)
 
         try:
             self.cursor.execute(sql)
