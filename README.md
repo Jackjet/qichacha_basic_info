@@ -8,6 +8,8 @@
            
  &ensp;&ensp;&ensp;&ensp; 查看网页源代码即可看到进入详情页的链接通过xpath提取出来，点击进入要查询的公司即可看到该公司的基本信息，如下图所示：      
 ![详情1](https://github.com/wei523712/qichacha_basic_info/blob/master/image/%E8%AF%A6%E6%83%85%E9%A1%B51.png)
-![详情2](https://github.com/wei523712/qichacha_basic_info/blob/master/image/%E8%AF%A6%E6%83%85%E9%A1%B52.png)             
- &ensp;&ensp;&ensp;&ensp; 点击公司的基本信息，公司的详情主要集中在表格中。该网页链接后会加上“#base”,当然要是不加也可以。     
+![详情2](https://github.com/wei523712/qichacha_basic_info/blob/master/image/%E8%AF%A6%E6%83%85%E9%A1%B52.png)              
+
+ &ensp;&ensp;&ensp;&ensp; 点击公司的基本信息，公司的详情主要集中在表格中。该网页链接后会加上“#base”,当然要是不加也可以。                
+ 
  ![详情页链接](https://github.com/wei523712/qichacha_basic_info/blob/master/image/%E8%AF%A6%E6%83%85%E9%A1%B5%E9%93%BE%E6%8E%A5.png)
