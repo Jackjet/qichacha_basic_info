@@ -1,5 +1,5 @@
 # qichacha_basic_info
-使用scrapy框架爬取企企网站上公司的基本信息 ** https://www.qichacha.com/ **       
+使用scrapy框架爬取企企网站上公司的基本信息   **https://www.qichacha.com/**       
 本次通过cookie登录的方式爬取企查查各公司的基本信息，后继还会介绍爬取企查查上各公司的裁判文书信息。     
 ## 网页链接分析     
  &ensp;&ensp;&ensp;&ensp; 打开企查查的首页，输入要查询的公司名字点击即可看到网页匹配出的相关公司列表，因为查询时给出的是公司的全名，所以一般是在列表中的第一个，程序中通过xpath匹配第一个公司。    
